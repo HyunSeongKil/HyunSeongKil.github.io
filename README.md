@@ -14,6 +14,17 @@
 - 점진
 - 반복
 - FAIL-FAST
+- Keep It Simple, Stupid (KISS)
+- 보이스카웃 규칙 
+  - 캠핑장을 떠나기 전에 원래보다 더 깨끗하게 해야한다.
+  - (참조되거나 수정되는 코드는 원래보다 clean해야 함)
+- SOLID 원칙
+  - SRP(Single Responsibility Principle)
+    - 단일책임원칙
+  - OCP(Open/Closed Principle)
+  - LSP
+  - ISP
+  - DIP
 
 
 ## Bjarne Stroustrup(C++ 창시자)
