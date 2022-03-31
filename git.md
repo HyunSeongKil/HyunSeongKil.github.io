@@ -25,3 +25,12 @@ git branch -D feature-01
 // remote branch 삭제
 git push origin :feature-01
 ```
+
+# 강제로 pull하기
+```
+git fetch --all
+
+git reset --hard origin/master
+
+git pull origin master
+```
