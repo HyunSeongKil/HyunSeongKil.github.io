@@ -30,7 +30,7 @@ git push origin :feature-01
 ```
 git fetch --all
 
-git reset --hard origin/master
+git reset --hard origin/{branchName}
 
-git pull origin master
+git pull origin {branchName}
 ```
