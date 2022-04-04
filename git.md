@@ -3,13 +3,13 @@
 // 참고 https://trustyoo86.github.io/git/2017/11/28/git-remote-branch-create.html
 
 // branch 생성 & 변경
-git checkout -b feature-01
+git checkout -b {branchName}
 
 // remote branch에도 생성
-git push origin feature-01
+git push origin {branchName}
 
-// loca branch와 remote branch 연동하기
-git branch --set-upstream-to origin/feature-1
+// local branch와 remote branch 연동하기
+git branch --set-upstream-to origin/{branchName}
 ```
 
 # branch 삭제하기
@@ -20,10 +20,10 @@ git branch --set-upstream-to origin/feature-1
 git checkout 다른브랜치
 
 // 강제로 local branch 삭제
-git branch -D feature-01
+git branch -D {branchName}
 
 // remote branch 삭제
-git push origin :feature-01
+git push origin :{branchName}
 ```
 
 # 강제로 pull하기
