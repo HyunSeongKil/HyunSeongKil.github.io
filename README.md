@@ -22,6 +22,13 @@
   - SRP(Single Responsibility Principle)
     - 단일책임원칙
   - OCP(Open/Closed Principle)
+    - 개방 폐쇄 원칙
+    - 추상화, 상속
+    - 변화가 예상되는 것을 추상화해서 변경의 유연함을 얻도록 해준다.
+    - 원칙이 깨질 때의 주요 증상
+      - 다운 캐스팅한다.
+      - instanceof와 같은 타입 확인 연산자가 사용된다면 해당 코드는 원칙을 안 지킬 가능성이 크다.
+      - 비슷한 if else 블록이 존재한다.
   - LSP
   - ISP
   - DIP
