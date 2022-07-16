@@ -34,3 +34,8 @@ git reset --hard origin/{branchName}
 
 git pull origin {branchName}
 ```
+
+# remote branch 삭제하기
+```
+git branch origin --delete {branchname}
+```
