@@ -1,10 +1,9 @@
 # geoserver vs java version
-https://docs.geoserver.org/latest/en/user/production/java.html
+  - 참고 : https://docs.geoserver.org/latest/en/user/production/java.html
+  - geoserver 2.21.1 은 java 15까지 정상동작 함
 
-## geoserver 2.21.1 은 java 15까지 정상동작 함
 
-
-## postgresql에 postgis 설치하는 방법
+# postgresql에 postgis 설치하는 방법
   - 참고 : https://sihus.tistory.com/3
   - 요약 : postgresql 쿼리 실행창에서 아래 구문 실행
   ```
