@@ -41,6 +41,8 @@
   - action과는 동기식으로 사용하기 때문에 절대 Promise를 리턴하면 안됨
   - 비즈니스 로직을 구현하면 안됨
   - 가능하면 내부 action을 통해 호출되도록 함 (외부에서 호출하지 않음)
+    - 참고 : https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fbyx9LD%2FbtqzP3PEjw1%2FsCAQXxSA04ykldfSgfvvGk%2Fimg.png
+    - vuejs에서는... component에서 직접 mutation호출을 허용하고 있지만... 단순 처리가 아니라면 action을 통해 호출하는것을 추천함
   - 네이밍은 상수 케이스(모두 대문자, 단어 구분은 언더바)
   - 3가지 경우가 존재
     - SET_XXX : 대부분의 경우로 object, array를 쓴다(write)
