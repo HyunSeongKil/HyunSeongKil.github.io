@@ -19,3 +19,4 @@
         ST_GeomFromText('POINT(129.014525 36.24553)', 4326)
     );
   ```
+## postgis.md 파일도 확인하세요.
