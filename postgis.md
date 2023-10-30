@@ -3,7 +3,11 @@
 
 ## postgresql
 1. install
-2. install PostGIS
+  
+
+## postgis
+- https://postgis.net
+- install PostGIS
   - https://velog.io/@tett_77/PostGIS-설치
  
   - stack builder
@@ -19,7 +23,7 @@
   sql> select * from pg_catalog.pg_extension;
   -- 목록에 postgis 존재하면 성공
   ```
-  
 
-## postgis
-https://postgis.net
+### 참고
+  - https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/Appendix.PostgreSQL.CommonDBATasks.PostGIS.html
+  - 
