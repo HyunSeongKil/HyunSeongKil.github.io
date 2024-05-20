@@ -4,6 +4,9 @@
 - singleton : Singleton objects are the same for every object and every request.
 
 ## App.config
+- 개발할 때 App.config 파일로 핸들링
+- 빌드 후 실행파일명.config 파일로 변환됨
+  - 예) 실행파일명: Program.dll => Program.dll.config
 ```
 // 0 App.config 파일 편집
 <configuration>
@@ -22,6 +25,3 @@ using Sytem.Configuration;
 // 3
 Console.WriteLine(Configuration.AppSettings["myKey"].ToString()); // output: myValue
 ```
-- 개발할 때 App.config 파일로 핸들링
-- 빌드 후 실행파일명.config 파일로 변환됨
-  - 예) 실행파일명: Program.dll => Program.dll.config
