@@ -5,7 +5,7 @@ title: "구글의 코드 리뷰 가이드(펌)"
 
 # 구글의 코드 리뷰 가이드
 
-- 링크: https://madplay.github.io/post/what-to-look-for-in-a-code-review
+- [https://madplay.github.io/post/what-to-look-for-in-a-code-review](https://madplay.github.io/post/what-to-look-for-in-a-code-review)
 
 ## 요약
 
