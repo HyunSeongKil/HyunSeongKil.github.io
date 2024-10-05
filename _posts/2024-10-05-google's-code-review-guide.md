@@ -1,6 +1,14 @@
+---
+layout: single
+title: "구글의 코드 리뷰 가이드(펌)"
+---
+
 # 구글의 코드 리뷰 가이드
-- https://madplay.github.io/post/what-to-look-for-in-a-code-review
+
+- 링크: https://madplay.github.io/post/what-to-look-for-in-a-code-review
+
 ## 요약
+
 - 코드가 잘 설계되어있다.
 - 기능이 사용자에게 유용하다.
 - UI 변경사항이 합리적이고 보기 좋다.
