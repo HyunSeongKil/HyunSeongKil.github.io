@@ -1,14 +1,17 @@
 ## transient vs scoped vs singleton
-- transient : Transient objects are always different; a new instance is provided to every controller and every service.
-- scoped : Scoped objects are the same within a request, but different across different requests.
-- singleton : Singleton objects are the same for every object and every request.
+
+- **transient** : Transient objects are always different; a new instance is provided to every controller and every service.
+- **scoped** : Scoped objects are the same within a request, but different across different requests.
+- **singleton** : Singleton objects are the same for every object and every request.
 
 ## App.config
+
 - 개발할 때 App.config 파일로 핸들링
 - 빌드 후 실행파일명.config 파일로 변환됨
   - 예) 실행파일명: Program.dll => Program.dll.config
+
 ```
-// 0 App.config 파일 편집
+// 1/4 App.config 파일 편집
 <configuration>
 ...전략
   <appSettings>
@@ -16,12 +19,18 @@
   <appSettings>
 ...후략
 </configuration>
+```
 
-// 1 System.Configuration 참고 추가
+```
+// 2/4 System.Configuration 참고 추가
+```
 
-// 2
+```
+// 3/4
 using Sytem.Configuration;
+```
 
-// 3
+```
+// 4/4
 Console.WriteLine(Configuration.AppSettings["myKey"].ToString()); // output: myValue
 ```
