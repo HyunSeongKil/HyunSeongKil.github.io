@@ -2,7 +2,7 @@
 layout: single
 title: "[Tech - 공통]구글의 코드 리뷰 가이드(펌)"
 # categories:[tech]
-tags:[기술,공통,코드리뷰,구글]
+# tags:[기술,공통,코드리뷰,구글]
 ---
 
 # 구글의 코드 리뷰 가이드

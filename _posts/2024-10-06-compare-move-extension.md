@@ -1,7 +1,7 @@
 ---
-title : "영상 파일 확장자 종류"
-layout:single
-tags:[기술,영상파일,확장자]
+layout: single
+title: "영상 파일 확장자 종류"
+# tags:[기술,영상파일,확장자]
 ---
 
 # 영상 파일 확장자 종류
