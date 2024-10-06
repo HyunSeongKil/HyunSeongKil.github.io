@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "hello world"
+title: "[공통]hello world"
 # categories:[misc]
 ---
 
