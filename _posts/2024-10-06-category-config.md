@@ -1,5 +1,5 @@
 ---
 title: github blog customizing - category
-categories: [movie]
+categories: [movie, tech]
 tags: [movie, 영화]
 ---
