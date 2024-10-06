@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "구글의 코드 리뷰 가이드(펌)"
-categories:[tech]
+# categories:[tech]
 ---
 
 # 구글의 코드 리뷰 가이드
