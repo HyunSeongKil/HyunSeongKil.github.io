@@ -8,5 +8,5 @@ main:
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
-  - title: "Movie"
-    url: /movie/
+  - title: "Categories"
+    url: /categories/
