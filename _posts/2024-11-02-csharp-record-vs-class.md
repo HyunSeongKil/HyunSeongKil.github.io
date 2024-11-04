@@ -28,9 +28,9 @@ title: "[Tech - c#] record vs class"
 - 속성을 정의할 때 set 대신에 사용
 - 객체가 처음 초기화될때 만 속성을 변경할 수 있음
 - init은 해당 속성을 Immutable 속성으로 만듦
+- 예)
 
-```
-예)
+```c#
 public record Person
 {
   public string Id {get; init;}
@@ -41,9 +41,9 @@ public record Person
 ## with 키워드
 
 - 언제 사용? : record로 생성된 인스턴스에서 일부만 변경하고 싶을 때
+- 예)
 
-```
-예)
+```c#
 Person p1 = new Person
 {
   Id = "aha1492",
@@ -57,9 +57,9 @@ Person p2 = p1 with {Id = "gravity"};
 
 - 값은 똑같기 때문에 Equals() 결과는 true
 - 메모리 주소는 다르기 때문에 ReferenceEuals() 결과는 false
+- 예)
 
-```
-예)
+```c#
 Person p1 = new()
 {
   Id = "aha1492",

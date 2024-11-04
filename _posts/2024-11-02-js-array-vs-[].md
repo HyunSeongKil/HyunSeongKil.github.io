@@ -24,8 +24,9 @@ title: "[Tech - 공통]js에서 array vs []"
 - []이 더 안전함
 - Array() 생성시 인수로 초기 배열값을 숫자로 전달할 수 있음. 숫자가 아닌 다른 값 전달시 예기치 않은 결과 초래할 수 있음
 
-```
-예)
-var arr1 = new Array(5) // 5개의 배열 생성
-var arr2 = new Array('5') // 문자 5를 가지는 배열 생성
+- 예)
+
+```js
+var arr1 = new Array(5); // 5개의 배열 생성
+var arr2 = new Array("5"); // 문자 5를 가지는 배열 생성
 ```
