@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Tech - 공통]js에서 array vs []"
+title: "[Tech - js]array vs []"
 # categories:[misc]
 # tags:[기타]
 ---
