@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Tech - c#]Func vs Action
+title: "[Tech - c#]Func vs Action"
 # categories:[misc]
 # tags:[기타]
 ---

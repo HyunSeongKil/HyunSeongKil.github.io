@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Tech - c#]Thread.Sleep vs Task.Delay
+title: "[Tech - c#]Thread.Sleep vs Task.Delay"
 # categories:[misc]
 # tags:[기타]
 ---
