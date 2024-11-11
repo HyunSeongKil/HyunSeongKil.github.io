@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Tech - c#]interface vs abstract class
+title: "[Tech - c#]interface vs abstract class"
 # categories:[misc]
 # tags:[기타]
 ---
