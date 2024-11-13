@@ -14,10 +14,14 @@ title: "[Tech - 공통]Helper class vs Utility class"
 | 인스턴스화 | 가능. 여러 개의 Helper class의 인스턴스 존재 가능 | 불가능                              |
 | 메소드     | 모든 메소드가 정적이지 않음                       | 모두 정적 메소드                    |
 
+---
+
 ## Helper class
 
 - [위키피디아 정의](https://en.wikipedia.org/wiki/Helper_class)
 - Helper class의 인스턴스는 Helper Object로 불림
+
+---
 
 ## Utility Class
 
