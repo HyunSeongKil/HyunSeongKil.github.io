@@ -25,6 +25,7 @@
   - Route는 페이지나 리소스를 식별하는데 중점, Navigation은 페이지 이동 과정 자체, 즉 앱 내 동작을 관리
 - MAUI Tabbar vs Tapped page
 - DateTime vs DateOnly
+- (at publish) self contained vs single file
 
 ```
 •	수정 가능 여부: IEnumerable는 읽기 전용 컬렉션을 나타내며, IList는 읽기 및 쓰기 가능한 컬렉션을 나타냅니다.
